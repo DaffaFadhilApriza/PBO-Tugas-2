@@ -7,9 +7,7 @@ class Mahasiswa:  # deklarasi kelas dengan nama "Mahasiswa".
     def tampilkan_info(self, ):  # metode yang digunakan untuk menampilkan informasi mahasiswa.
         print("Nama:", self.nama)  # perintah cetak yang menampilkan informasi nama.
         print("NIM:", self.nim)  # perintah cetak yang menampilkan informasi nim.
-        print(
-            "Jurusan:", self.jurusan.NamaJurusan
-        )  # perintah cetak yang menampilkan informasi jurusan.
+        print("Jurusan:", self.jurusan.NamaJurusan)  # perintah cetak yang menampilkan informasi jurusan.
 
 
 class Jurusan:  # deklarasi kelas dengan nama "Jurusan".
